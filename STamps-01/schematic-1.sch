@@ -13086,14 +13086,7 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 -&gt;Heatbed
 -&gt;Stepper/Electronics/Fan
 
--Search SMD Car Fuse Holder
-
--Pinout
--&gt;SmartLCD Adapter Compatible
--&gt;SDramps Compatible
--&gt; Rest EXTRA
-
--MCU Crystal 8Mhz</text>
+-Search SMD Car Fuse Holder</text>
 <wire x1="-256.54" y1="416.56" x2="-152.4" y2="416.56" width="0.4064" layer="95" style="longdash"/>
 <wire x1="-152.4" y1="416.56" x2="-152.4" y2="350.52" width="0.4064" layer="95" style="longdash"/>
 <wire x1="-152.4" y1="350.52" x2="-256.54" y2="350.52" width="0.4064" layer="95" style="longdash"/>
@@ -13119,11 +13112,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="231.14" y1="0" x2="88.9" y2="0" width="0.4064" layer="95" style="longdash"/>
 <wire x1="88.9" y1="0" x2="86.36" y2="259.08" width="0.4064" layer="95" style="longdash"/>
 <text x="86.36" y="261.62" size="2.54" layer="95">STEPPER DRIVER</text>
-<wire x1="-548.64" y1="330.2" x2="-474.98" y2="330.2" width="0.4064" layer="95" style="longdash"/>
-<wire x1="-474.98" y1="330.2" x2="-474.98" y2="281.94" width="0.4064" layer="95" style="longdash"/>
-<wire x1="-474.98" y1="281.94" x2="-548.64" y2="281.94" width="0.4064" layer="95" style="longdash"/>
-<wire x1="-548.64" y1="281.94" x2="-548.64" y2="330.2" width="0.4064" layer="95" style="longdash"/>
-<text x="-548.64" y="332.74" size="2.54" layer="95">MINI USB CONNECTOR</text>
+<wire x1="-459.74" y1="322.58" x2="-386.08" y2="322.58" width="0.4064" layer="95" style="longdash"/>
+<wire x1="-386.08" y1="322.58" x2="-386.08" y2="274.32" width="0.4064" layer="95" style="longdash"/>
+<wire x1="-386.08" y1="274.32" x2="-459.74" y2="274.32" width="0.4064" layer="95" style="longdash"/>
+<wire x1="-459.74" y1="274.32" x2="-459.74" y2="322.58" width="0.4064" layer="95" style="longdash"/>
+<text x="-459.74" y="325.12" size="2.54" layer="95">MINI USB CONNECTOR</text>
 <wire x1="-160.02" y1="160.02" x2="17.78" y2="160.02" width="0.4064" layer="95" style="longdash"/>
 <wire x1="17.78" y1="160.02" x2="17.78" y2="-2.54" width="0.4064" layer="95" style="longdash"/>
 <wire x1="17.78" y1="-2.54" x2="-160.02" y2="-2.54" width="0.4064" layer="95" style="longdash"/>
@@ -13146,12 +13139,12 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-325.12" y1="-93.98" x2="-325.12" y2="-30.48" width="0.4064" layer="95" style="longdash"/>
 <text x="-325.12" y="-27.94" size="2.54" layer="95">BL MODULE HC-06</text>
 <text x="-259.08" y="10.16" size="2.54" layer="95">UART1 PROG</text>
-<text x="-502.92" y="332.74" size="1.778" layer="94">Check Diode!</text>
-<wire x1="-525.78" y1="-20.32" x2="-480.06" y2="-20.32" width="0.4064" layer="95" style="longdash"/>
-<wire x1="-480.06" y1="-20.32" x2="-480.06" y2="-111.76" width="0.4064" layer="95" style="longdash"/>
-<wire x1="-480.06" y1="-111.76" x2="-525.78" y2="-111.76" width="0.4064" layer="95" style="longdash"/>
-<wire x1="-525.78" y1="-111.76" x2="-525.78" y2="-20.32" width="0.4064" layer="95" style="longdash"/>
-<text x="-525.78" y="-17.78" size="2.54" layer="95">HIGH POWER OUTPUT</text>
+<text x="-414.02" y="325.12" size="1.778" layer="94">Check Diode!</text>
+<wire x1="-381" y1="299.72" x2="-335.28" y2="299.72" width="0.4064" layer="95" style="longdash"/>
+<wire x1="-335.28" y1="299.72" x2="-335.28" y2="208.28" width="0.4064" layer="95" style="longdash"/>
+<wire x1="-335.28" y1="208.28" x2="-381" y2="208.28" width="0.4064" layer="95" style="longdash"/>
+<wire x1="-381" y1="208.28" x2="-381" y2="299.72" width="0.4064" layer="95" style="longdash"/>
+<text x="-381" y="302.26" size="2.54" layer="95">HIGH POWER OUTPUT</text>
 <wire x1="-162.56" y1="-33.02" x2="-121.92" y2="-33.02" width="0.4064" layer="95" style="longdash"/>
 <wire x1="-121.92" y1="-33.02" x2="-121.92" y2="-91.44" width="0.4064" layer="95" style="longdash"/>
 <wire x1="-121.92" y1="-91.44" x2="-162.56" y2="-91.44" width="0.4064" layer="95" style="longdash"/>
@@ -13263,26 +13256,26 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <instance part="SUPPLY58" gate="G$1" x="-287.02" y="238.76" rot="MR0"/>
 <instance part="GND31" gate="1" x="-284.48" y="205.74"/>
 <instance part="JS1" gate="G$1" x="104.14" y="218.44"/>
-<instance part="JS7" gate="G$1" x="-518.16" y="-38.1"/>
+<instance part="JS7" gate="G$1" x="-373.38" y="281.94"/>
 <instance part="JP3" gate="A" x="121.92" y="218.44" rot="R180"/>
 <instance part="JS2" gate="G$1" x="104.14" y="154.94"/>
 <instance part="JS3" gate="G$1" x="104.14" y="91.44"/>
 <instance part="JS4" gate="G$1" x="104.14" y="27.94"/>
 <instance part="S2" gate="G$1" x="-167.64" y="314.96" rot="R270"/>
 <instance part="JP22" gate="A" x="111.76" y="218.44" rot="R180"/>
-<instance part="CN1" gate="G$1" x="-533.4" y="302.26"/>
-<instance part="R30" gate="G$1" x="-500.38" y="304.8"/>
-<instance part="R31" gate="G$1" x="-500.38" y="297.18"/>
-<instance part="D7" gate="G$1" x="-515.62" y="312.42"/>
-<instance part="SUPPLY59" gate="G$1" x="-508" y="317.5"/>
-<instance part="GND32" gate="1" x="-520.7" y="289.56"/>
+<instance part="CN1" gate="G$1" x="-444.5" y="294.64"/>
+<instance part="R30" gate="G$1" x="-411.48" y="297.18"/>
+<instance part="R31" gate="G$1" x="-411.48" y="289.56"/>
+<instance part="D7" gate="G$1" x="-426.72" y="304.8"/>
+<instance part="SUPPLY59" gate="G$1" x="-419.1" y="309.88"/>
+<instance part="GND32" gate="1" x="-431.8" y="281.94"/>
 <instance part="LED7" gate="G$1" x="-246.38" y="383.54"/>
 <instance part="R32" gate="G$1" x="-246.38" y="396.24" rot="R270"/>
 <instance part="SUPPLY60" gate="G$1" x="-246.38" y="406.4"/>
 <instance part="GND33" gate="1" x="-246.38" y="365.76"/>
 <instance part="SUPPLY61" gate="G$1" x="-220.98" y="406.4" rot="MR0"/>
 <instance part="SUPPLY62" gate="G$1" x="-208.28" y="406.4" rot="MR0"/>
-<instance part="SUPPLY63" gate="G$2" x="-520.7" y="317.5" rot="MR0"/>
+<instance part="SUPPLY63" gate="G$2" x="-431.8" y="309.88" rot="MR0"/>
 <instance part="SUPPLY64" gate="G$2" x="-233.68" y="406.4"/>
 <instance part="LED8" gate="G$1" x="-233.68" y="383.54"/>
 <instance part="LED9" gate="G$1" x="-220.98" y="383.54"/>
@@ -13330,12 +13323,12 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <instance part="JP26" gate="A" x="-304.8" y="-45.72" rot="R90"/>
 <instance part="SUPPLY34" gate="G$1" x="-314.96" y="-40.64" rot="MR0"/>
 <instance part="SUPPLY56" gate="G$1" x="-297.18" y="-40.64" rot="MR0"/>
-<instance part="JS8" gate="G$1" x="-518.16" y="-50.8"/>
-<instance part="JS9" gate="G$1" x="-518.16" y="-63.5"/>
-<instance part="JS10" gate="G$1" x="-518.16" y="-76.2"/>
-<instance part="JS11" gate="G$1" x="-518.16" y="-88.9"/>
-<instance part="JS12" gate="G$1" x="-518.16" y="-101.6"/>
-<instance part="SUPPLY65" gate="G$1" x="-508" y="-30.48"/>
+<instance part="JS8" gate="G$1" x="-373.38" y="269.24"/>
+<instance part="JS9" gate="G$1" x="-373.38" y="256.54"/>
+<instance part="JS10" gate="G$1" x="-373.38" y="243.84"/>
+<instance part="JS11" gate="G$1" x="-373.38" y="231.14"/>
+<instance part="JS12" gate="G$1" x="-373.38" y="218.44"/>
+<instance part="SUPPLY65" gate="G$1" x="-363.22" y="289.56"/>
 <instance part="JP27" gate="A" x="-154.94" y="-53.34" rot="R180"/>
 <instance part="JP28" gate="A" x="-154.94" y="-71.12" rot="R180"/>
 <instance part="SUPPLY66" gate="G$1" x="-142.24" y="-43.18" rot="MR0"/>
@@ -13350,8 +13343,8 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <instance part="U$1" gate="STM32F100R" x="-81.28" y="83.82"/>
 <instance part="C1" gate="G$1" x="-101.6" y="124.46" rot="MR90"/>
 <instance part="C2" gate="G$1" x="-101.6" y="134.62" rot="MR90"/>
-<instance part="C7" gate="G$1" x="-134.62" y="73.66" rot="MR0"/>
-<instance part="C8" gate="G$1" x="-144.78" y="73.66" rot="MR0"/>
+<instance part="C7" gate="G$1" x="-137.16" y="73.66" rot="MR0"/>
+<instance part="C8" gate="G$1" x="-147.32" y="73.66" rot="MR0"/>
 <instance part="C9" gate="G$1" x="-101.6" y="38.1" rot="MR270"/>
 <instance part="C10" gate="G$1" x="-63.5" y="40.64" rot="MR270"/>
 <instance part="C11" gate="G$1" x="-40.64" y="101.6" rot="MR180"/>
@@ -13505,16 +13498,16 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="STM32F100R" pin="VDDA"/>
-<wire x1="-116.84" y1="71.12" x2="-132.08" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-132.08" y1="71.12" x2="-132.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="71.12" x2="-134.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="71.12" x2="-134.62" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-132.08" y1="68.58" x2="-134.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="68.58" x2="-137.16" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="-134.62" y1="68.58" x2="-144.78" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-134.62" y="68.58"/>
+<wire x1="-137.16" y1="68.58" x2="-147.32" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-137.16" y="68.58"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="-152.4" y1="68.58" x2="-144.78" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-144.78" y="68.58"/>
+<wire x1="-152.4" y1="68.58" x2="-147.32" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-147.32" y="68.58"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -13633,28 +13626,28 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="JS12" gate="G$1" pin="1"/>
-<wire x1="-513.08" y1="-101.6" x2="-508" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="-508" y1="-101.6" x2="-508" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="-368.3" y1="218.44" x2="-363.22" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="218.44" x2="-363.22" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JS7" gate="G$1" pin="1"/>
-<wire x1="-508" y1="-88.9" x2="-508" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-508" y1="-76.2" x2="-508" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="-508" y1="-63.5" x2="-508" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-508" y1="-50.8" x2="-508" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-508" y1="-38.1" x2="-508" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-513.08" y1="-38.1" x2="-508" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="-508" y="-38.1"/>
+<wire x1="-363.22" y1="231.14" x2="-363.22" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="243.84" x2="-363.22" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="256.54" x2="-363.22" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="269.24" x2="-363.22" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="281.94" x2="-363.22" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="-368.3" y1="281.94" x2="-363.22" y2="281.94" width="0.1524" layer="91"/>
+<junction x="-363.22" y="281.94"/>
 <pinref part="JS8" gate="G$1" pin="1"/>
-<wire x1="-513.08" y1="-50.8" x2="-508" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-508" y="-50.8"/>
+<wire x1="-368.3" y1="269.24" x2="-363.22" y2="269.24" width="0.1524" layer="91"/>
+<junction x="-363.22" y="269.24"/>
 <pinref part="JS9" gate="G$1" pin="1"/>
-<wire x1="-513.08" y1="-63.5" x2="-508" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="-508" y="-63.5"/>
+<wire x1="-368.3" y1="256.54" x2="-363.22" y2="256.54" width="0.1524" layer="91"/>
+<junction x="-363.22" y="256.54"/>
 <pinref part="JS10" gate="G$1" pin="1"/>
-<wire x1="-513.08" y1="-76.2" x2="-508" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="-508" y="-76.2"/>
+<wire x1="-368.3" y1="243.84" x2="-363.22" y2="243.84" width="0.1524" layer="91"/>
+<junction x="-363.22" y="243.84"/>
 <pinref part="JS11" gate="G$1" pin="1"/>
-<wire x1="-513.08" y1="-88.9" x2="-508" y2="-88.9" width="0.1524" layer="91"/>
-<junction x="-508" y="-88.9"/>
+<wire x1="-368.3" y1="231.14" x2="-363.22" y2="231.14" width="0.1524" layer="91"/>
+<junction x="-363.22" y="231.14"/>
 <pinref part="SUPPLY65" gate="G$1" pin="12V"/>
 </segment>
 </net>
@@ -13794,8 +13787,8 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="GND"/>
-<wire x1="-523.24" y1="297.18" x2="-520.7" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="-520.7" y1="297.18" x2="-520.7" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="-434.34" y1="289.56" x2="-431.8" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="-431.8" y1="289.56" x2="-431.8" y2="284.48" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13968,16 +13961,16 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="STM32F100R" pin="VSSA"/>
-<wire x1="-116.84" y1="73.66" x2="-132.08" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-132.08" y1="73.66" x2="-132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="73.66" x2="-134.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="73.66" x2="-134.62" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-132.08" y1="76.2" x2="-134.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="76.2" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="-134.62" y1="76.2" x2="-144.78" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-134.62" y="76.2"/>
+<wire x1="-137.16" y1="76.2" x2="-147.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-137.16" y="76.2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-152.4" y1="76.2" x2="-144.78" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-144.78" y="76.2"/>
+<wire x1="-152.4" y1="76.2" x2="-147.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-147.32" y="76.2"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="STM32F100R" pin="VSS_4"/>
@@ -14332,6 +14325,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-294.64" y1="231.14" x2="-279.4" y2="231.14" width="0.1524" layer="91"/>
 <label x="-279.4" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="BOOT0"/>
+<wire x1="-91.44" y1="116.84" x2="-91.44" y2="124.46" width="0.1524" layer="91"/>
+<label x="-91.44" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Z_EN" class="0">
 <segment>
@@ -14340,6 +14338,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="185.42" y1="226.06" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
 <label x="185.42" y="228.6" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC0"/>
+<wire x1="-124.46" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
+<label x="-124.46" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="Z_STEP" class="0">
 <segment>
@@ -14347,12 +14350,22 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="182.88" y1="210.82" x2="187.96" y2="210.82" width="0.1524" layer="91"/>
 <label x="187.96" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC1"/>
+<wire x1="-124.46" y1="81.28" x2="-116.84" y2="81.28" width="0.1524" layer="91"/>
+<label x="-124.46" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="Z_DIR" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DIR"/>
 <wire x1="182.88" y1="208.28" x2="187.96" y2="208.28" width="0.1524" layer="91"/>
 <label x="187.96" y="208.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC2"/>
+<wire x1="-116.84" y1="78.74" x2="-124.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="-124.46" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="X_EN" class="0">
@@ -14362,6 +14375,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="175.26" y1="162.56" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
 <label x="175.26" y="165.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PD2"/>
+<wire x1="-76.2" y1="124.46" x2="-76.2" y2="116.84" width="0.1524" layer="91"/>
+<label x="-76.2" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="X_STEP" class="0">
 <segment>
@@ -14369,12 +14387,22 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="172.72" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <label x="177.8" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB3"/>
+<wire x1="-78.74" y1="124.46" x2="-78.74" y2="116.84" width="0.1524" layer="91"/>
+<label x="-78.74" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="X_DIR" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="DIR"/>
 <wire x1="177.8" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 <label x="177.8" y="144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB4"/>
+<wire x1="-81.28" y1="124.46" x2="-81.28" y2="116.84" width="0.1524" layer="91"/>
+<label x="-81.28" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="Y_EN" class="0">
@@ -14384,6 +14412,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="175.26" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <label x="175.26" y="101.6" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB5"/>
+<wire x1="-83.82" y1="124.46" x2="-83.82" y2="116.84" width="0.1524" layer="91"/>
+<label x="-83.82" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Y_STEP" class="0">
 <segment>
@@ -14391,12 +14424,22 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="172.72" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <label x="177.8" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB8"/>
+<wire x1="-93.98" y1="124.46" x2="-93.98" y2="116.84" width="0.1524" layer="91"/>
+<label x="-93.98" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="Y_DIR" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="DIR"/>
 <wire x1="172.72" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <label x="177.8" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB9"/>
+<wire x1="-96.52" y1="116.84" x2="-96.52" y2="124.46" width="0.1524" layer="91"/>
+<label x="-96.52" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="E0_EN" class="0">
@@ -14406,6 +14449,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="175.26" y1="35.56" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
 <label x="175.26" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC3"/>
+<wire x1="-124.46" y1="76.2" x2="-116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="-124.46" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="E0_STEP" class="0">
 <segment>
@@ -14413,12 +14461,24 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="172.72" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
 <label x="177.8" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA0-WKUP"/>
+<wire x1="-116.84" y1="68.58" x2="-124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="68.58" x2="-124.46" y2="58.42" width="0.1524" layer="91"/>
+<label x="-124.46" y="58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="E0_DIR" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIR"/>
 <wire x1="172.72" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
 <label x="177.8" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA1"/>
+<wire x1="-116.84" y1="66.04" x2="-121.92" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="66.04" x2="-121.92" y2="58.42" width="0.1524" layer="91"/>
+<label x="-121.92" y="58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="T1" class="0">
@@ -14437,6 +14497,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <label x="-139.7" y="215.9" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB0"/>
+<wire x1="-78.74" y1="48.26" x2="-78.74" y2="40.64" width="0.1524" layer="91"/>
+<label x="-78.74" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="T0" class="0">
 <segment>
@@ -14454,6 +14519,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <label x="-154.94" y="215.9" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC5"/>
+<wire x1="-81.28" y1="48.26" x2="-81.28" y2="40.64" width="0.1524" layer="91"/>
+<label x="-81.28" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="T2" class="0">
 <segment>
@@ -14468,6 +14538,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <junction x="-134.62" y="218.44"/>
 <junction x="-124.46" y="218.44"/>
 <pinref part="JP1" gate="A" pin="5"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB1"/>
+<wire x1="-76.2" y1="48.26" x2="-76.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="-76.2" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -14485,6 +14560,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-238.76" y1="45.72" x2="-228.6" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="JP24" gate="A" pin="2"/>
 <label x="-228.6" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="NRST"/>
+<wire x1="-116.84" y1="86.36" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
+<label x="-124.46" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HEATBED" class="0">
@@ -14517,8 +14597,8 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <net name="5V" class="0">
 <segment>
 <pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="-513.08" y1="312.42" x2="-508" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="-508" y1="312.42" x2="-508" y2="317.5" width="0.1524" layer="91"/>
+<wire x1="-424.18" y1="304.8" x2="-419.1" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="-419.1" y1="304.8" x2="-419.1" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY59" gate="G$1" pin="5V"/>
 </segment>
 <segment>
@@ -14649,8 +14729,8 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="JS7" gate="G$1" pin="2"/>
-<wire x1="-513.08" y1="-40.64" x2="-502.92" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-502.92" y="-40.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="-368.3" y1="279.4" x2="-358.14" y2="279.4" width="0.1524" layer="91"/>
+<label x="-358.14" y="279.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="E0" class="0">
@@ -14680,22 +14760,22 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="JS8" gate="G$1" pin="2"/>
-<wire x1="-513.08" y1="-53.34" x2="-502.92" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-502.92" y="-53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="-368.3" y1="266.7" x2="-358.14" y2="266.7" width="0.1524" layer="91"/>
+<label x="-358.14" y="266.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="E1_OUTPUT" class="0">
 <segment>
 <pinref part="JS9" gate="G$1" pin="2"/>
-<wire x1="-502.92" y1="-66.04" x2="-513.08" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-502.92" y="-66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="-358.14" y1="254" x2="-368.3" y2="254" width="0.1524" layer="91"/>
+<label x="-358.14" y="254" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="E2_OUTPUT" class="0">
 <segment>
 <pinref part="JS10" gate="G$1" pin="2"/>
-<wire x1="-502.92" y1="-78.74" x2="-513.08" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-502.92" y="-78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="-358.14" y1="241.3" x2="-368.3" y2="241.3" width="0.1524" layer="91"/>
+<label x="-358.14" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EXTRA0" class="0">
@@ -14725,15 +14805,15 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 </segment>
 <segment>
 <pinref part="JS11" gate="G$1" pin="2"/>
-<wire x1="-513.08" y1="-91.44" x2="-502.92" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-502.92" y="-91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="-368.3" y1="228.6" x2="-358.14" y2="228.6" width="0.1524" layer="91"/>
+<label x="-358.14" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EXTRA1_OUTPUT" class="0">
 <segment>
 <pinref part="JS12" gate="G$1" pin="2"/>
-<wire x1="-513.08" y1="-104.14" x2="-502.92" y2="-104.14" width="0.1524" layer="91"/>
-<label x="-502.92" y="-104.14" size="1.27" layer="95" xref="yes"/>
+<wire x1="-368.3" y1="215.9" x2="-358.14" y2="215.9" width="0.1524" layer="91"/>
+<label x="-358.14" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="X-MIN" class="0">
@@ -14747,6 +14827,12 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-309.88" y1="294.64" x2="-309.88" y2="292.1" width="0.1524" layer="91"/>
 <junction x="-304.8" y="294.64"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA2"/>
+<wire x1="-116.84" y1="63.5" x2="-119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="63.5" x2="-119.38" y2="58.42" width="0.1524" layer="91"/>
+<label x="-119.38" y="58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="X-MAX" class="0">
 <segment>
@@ -14758,6 +14844,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-292.1" y1="292.1" x2="-292.1" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="-292.1" y1="294.64" x2="-287.02" y2="294.64" width="0.1524" layer="91"/>
 <junction x="-287.02" y="294.64"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA4"/>
+<wire x1="-93.98" y1="48.26" x2="-93.98" y2="40.64" width="0.1524" layer="91"/>
+<label x="-93.98" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="Y-MIN" class="0">
@@ -14771,6 +14862,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <junction x="-269.24" y="294.64"/>
 <label x="-269.24" y="284.48" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA5"/>
+<wire x1="-91.44" y1="40.64" x2="-91.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="-91.44" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="Y-MAX" class="0">
 <segment>
@@ -14782,6 +14878,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-256.54" y1="294.64" x2="-251.46" y2="294.64" width="0.1524" layer="91"/>
 <junction x="-251.46" y="294.64"/>
 <label x="-251.46" y="284.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA6"/>
+<wire x1="-88.9" y1="40.64" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="-88.9" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="Z-MIN" class="0">
@@ -14795,6 +14896,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <junction x="-233.68" y="294.64"/>
 <label x="-233.68" y="284.48" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA7"/>
+<wire x1="-86.36" y1="40.64" x2="-86.36" y2="48.26" width="0.1524" layer="91"/>
+<label x="-86.36" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="Z-MAX" class="0">
 <segment>
@@ -14807,21 +14913,26 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <junction x="-215.9" y="294.64"/>
 <label x="-215.9" y="284.48" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC4"/>
+<wire x1="-83.82" y1="40.64" x2="-83.82" y2="48.26" width="0.1524" layer="91"/>
+<label x="-83.82" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="CN1" gate="G$1" pin="D-"/>
-<wire x1="-523.24" y1="302.26" x2="-518.16" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="-518.16" y1="302.26" x2="-518.16" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="-434.34" y1="294.64" x2="-429.26" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="-429.26" y1="294.64" x2="-429.26" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="-518.16" y1="297.18" x2="-505.46" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="-429.26" y1="289.56" x2="-416.56" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="1"/>
 <pinref part="CN1" gate="G$1" pin="D+"/>
-<wire x1="-505.46" y1="304.8" x2="-523.24" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="-416.56" y1="297.18" x2="-434.34" y2="297.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -14834,13 +14945,13 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <net name="VCC_1" class="0">
 <segment>
 <pinref part="CN1" gate="G$1" pin="VBUS"/>
-<wire x1="-523.24" y1="307.34" x2="-520.7" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="-520.7" y1="307.34" x2="-520.7" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="-434.34" y1="299.72" x2="-431.8" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="-431.8" y1="299.72" x2="-431.8" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="-520.7" y1="312.42" x2="-518.16" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="-431.8" y1="304.8" x2="-429.26" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY63" gate="G$2" pin="VCC_1"/>
-<wire x1="-520.7" y1="312.42" x2="-520.7" y2="317.5" width="0.1524" layer="91"/>
-<junction x="-520.7" y="312.42"/>
+<wire x1="-431.8" y1="304.8" x2="-431.8" y2="309.88" width="0.1524" layer="91"/>
+<junction x="-431.8" y="304.8"/>
 </segment>
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
@@ -15005,8 +15116,8 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <net name="USBDP" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="-495.3" y1="304.8" x2="-490.22" y2="304.8" width="0.1524" layer="91" style="longdash"/>
-<label x="-490.22" y="304.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="-406.4" y1="297.18" x2="-401.32" y2="297.18" width="0.1524" layer="91" style="longdash"/>
+<label x="-401.32" y="297.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="STM32F100R" pin="PA12"/>
@@ -15017,8 +15128,8 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <net name="USBDM" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="-495.3" y1="297.18" x2="-490.22" y2="297.18" width="0.1524" layer="91" style="longdash"/>
-<label x="-490.22" y="297.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="-406.4" y1="289.56" x2="-401.32" y2="289.56" width="0.1524" layer="91" style="longdash"/>
+<label x="-401.32" y="289.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="STM32F100R" pin="PA11"/>
@@ -15032,6 +15143,11 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <pinref part="JP24" gate="A" pin="3"/>
 <label x="-228.6" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA13"/>
+<wire x1="-48.26" y1="96.52" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
+<label x="-40.64" y="96.52" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
@@ -15039,12 +15155,22 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <label x="-228.6" y="53.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP24" gate="A" pin="5"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA14"/>
+<wire x1="-63.5" y1="116.84" x2="-63.5" y2="124.46" width="0.1524" layer="91"/>
+<label x="-63.5" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="SWO" class="0">
 <segment>
 <pinref part="JP24" gate="A" pin="1"/>
 <wire x1="-238.76" y1="43.18" x2="-228.6" y2="43.18" width="0.1524" layer="91"/>
 <label x="-228.6" y="43.18" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PA15"/>
+<wire x1="-66.04" y1="116.84" x2="-66.04" y2="124.46" width="0.1524" layer="91"/>
+<label x="-66.04" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -15176,11 +15302,6 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <wire x1="-45.72" y1="-53.34" x2="-30.48" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-45.72" y="-53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="STM32F100R" pin="PB12"/>
-<wire x1="-48.26" y1="63.5" x2="-40.64" y2="63.5" width="0.1524" layer="91"/>
-<label x="-40.64" y="63.5" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -15189,9 +15310,9 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <label x="10.16" y="-45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="STM32F100R" pin="PB10"/>
-<wire x1="-71.12" y1="48.26" x2="-71.12" y2="40.64" width="0.1524" layer="91"/>
-<label x="-71.12" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="STM32F100R" pin="PB6"/>
+<wire x1="-86.36" y1="124.46" x2="-86.36" y2="116.84" width="0.1524" layer="91"/>
+<label x="-86.36" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -15201,9 +15322,9 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <label x="10.16" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="STM32F100R" pin="PB11"/>
-<wire x1="-68.58" y1="48.26" x2="-68.58" y2="40.64" width="0.1524" layer="91"/>
-<label x="-68.58" y="40.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="STM32F100R" pin="PB7"/>
+<wire x1="-88.9" y1="124.46" x2="-88.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="-88.9" y="124.46" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -15211,12 +15332,6 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <pinref part="U$1" gate="STM32F100R" pin="PA3"/>
 <wire x1="-101.6" y1="48.26" x2="-101.6" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="45.72" x2="-104.14" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$1" gate="STM32F100R" pin="BOOT0"/>
-<wire x1="-91.44" y1="116.84" x2="-91.44" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15257,6 +15372,20 @@ NO: Should be Off, HEATBED Low and its going to be on.</text>
 <pinref part="JP23" gate="A" pin="2"/>
 <wire x1="-248.92" y1="-15.24" x2="-238.76" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-238.76" y="-15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SPI_CS1" class="0">
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PB12"/>
+<wire x1="-48.26" y1="63.5" x2="-40.64" y2="63.5" width="0.1524" layer="91"/>
+<label x="-40.64" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SPI_CS2" class="0">
+<segment>
+<pinref part="U$1" gate="STM32F100R" pin="PC6"/>
+<wire x1="-48.26" y1="73.66" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
+<label x="-40.64" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
